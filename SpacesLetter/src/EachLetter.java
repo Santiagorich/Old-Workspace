@@ -1,0 +1,29 @@
+
+public class EachLetter {
+
+	public static void main(String[] args) {
+		String Text = "UJGFLTZPRESERVATIONM\r\n" + 
+				"UURECYCLECONSUMPTION\r\n" + 
+				"UAIERUTANOITAVRESNOC\r\n" + 
+				"QKGNVOVERPOPULATIONH\r\n" + 
+				"NSNEDESERTIFICATIONT\r\n" + 
+				"OOICMUMZPLTELBAWENER\r\n" + 
+				"IIMORTSMCEFIZKNBZIUA\r\n" + 
+				"TLRSAYHTZLMSWOYGRENE\r\n" + 
+				"AEAYFPTNRANOITCNITXE\r\n" + 
+				"NRWSDMDETIZTUWASTELH\r\n" + 
+				"IOLTNHJEFOACIDRAINKT\r\n" + 
+				"MSAEIOCONTNLHWUNEKRF\r\n" + 
+				"AIBMWHKEIMCZICINAGRO\r\n" + 
+				"TOOKANLODFJKSZXSLTLS\r\n" + 
+				"NNLNVALGREENPEACEAQD\r\n" + 
+				"OYGHYPOLLUTIONSTOCFN\r\n" + 
+				"CENEXHTLHTNEMNORIVNE\r\n" + 
+				"RGREENHOUSEGASESZOLI\r\n" + 
+				"TJMJELBANIATSUSYXHNR\r\n" + 
+				"REWOPRALOSLEUFLISSOF";
+		System.out.println(Text.replaceAll("", " "));
+
+	}
+
+}
